@@ -6,3 +6,7 @@ def solution(my_string):
         else :
             result += i.upper()
     return result
+
+
+def solution(my_string):
+    return my_string.swapcase()
