@@ -6,3 +6,7 @@ def solution(cipher, code):
             answer += i
         cnt = cnt + 1
     return answer
+
+def solution(cipher, code):
+    answer = cipher[code-1::code]
+    return answer
